@@ -82,7 +82,7 @@ export default function Home() {
             className="text-xl tracking-wide text-[#3d2c2c]"
             style={{ fontFamily: "var(--font-playfair), serif" }}
           >
-            Benita.
+            Kanyitochukwu.
           </span>
 
           {/* Desktop Links */}
@@ -440,12 +440,47 @@ export default function Home() {
             Have a dataset that needs a story? A dashboard that needs building?
             I&apos;d love to hear about your project.
           </p>
-          <a
-            href="mailto:benita@example.com"
-            className="inline-block px-10 py-4 bg-[#c9a0a0] text-white text-xs tracking-[0.2em] uppercase rounded-full hover:bg-[#b88a8a] transition-colors duration-300"
-          >
-            Say Hello
-          </a>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="mailto:Kaitomokwunye@gmail.com"
+              className="inline-flex items-center gap-2 px-8 py-4 bg-[#c9a0a0] text-white text-xs tracking-[0.2em] uppercase rounded-full hover:bg-[#b88a8a] transition-colors duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <rect width="20" height="16" x="2" y="4" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+              Kaitomokwunye@gmail.com
+            </a>
+            <a
+              href="tel:09068990211"
+              className="inline-flex items-center gap-2 px-8 py-4 border border-[#c9a0a0] text-[#c9a0a0] text-xs tracking-[0.2em] uppercase rounded-full hover:bg-[#c9a0a0] hover:text-white transition-all duration-300"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="14"
+                height="14"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              >
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.1a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 2.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 9.91a16 16 0 0 0 6.18 6.18l.95-.95a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 17z" />
+              </svg>
+              09068990211
+            </a>
+          </div>
         </div>
       </section>
 
@@ -453,7 +488,7 @@ export default function Home() {
       <footer className="py-8 px-6 border-t border-[#e8d5d5] bg-[#fdf8f5]">
         <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#c9a0a0] tracking-wide">
           <span style={{ fontFamily: "var(--font-playfair), serif" }}>
-            Benita.
+            Kanyitochukwu.
           </span>
           <span>© {new Date().getFullYear()} · Data Analyst Portfolio</span>
           <span>Built with Next.js & Tailwind CSS</span>

@@ -15,7 +15,7 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Benita | Data Analyst",
+  title: "Kanyitochukwu | Data Analyst",
   description:
     "Portfolio of a data analyst specializing in SQL, Power BI, and turning raw data into actionable insights.",
 };
